@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_balance - Calculate the tree balance
- * @tree: the pointer to the root node
- * Return: tree balance
+ * binary_tree_balance - Calculates the balance factor of a binary tree.
+ * @tree: A pointer to the root node of the tree.
+ * Return: The balance factor of the tree or 0 if the tree is NULL.
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
